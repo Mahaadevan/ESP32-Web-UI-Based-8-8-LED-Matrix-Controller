@@ -111,6 +111,7 @@ esp32-8x8-led-matrix-controller/
 │       └── ui.h                   # embedded web UI (HTML/CSS/JS)
 ├── docs/
 │   └── matrix-pinout.png
+│   └── Project.png
 ├── LICENSE
 └── README.md
 ```
