@@ -24,14 +24,14 @@ Drives a bare 8×8 LED matrix **directly from an ESP32** (no MAX7219 or other dr
 | 8× resistors (i didn't use them) | In series with the column lines (~220–330 Ω is typical) |
 
 > Resistor and transistor values are typical suggestions, size them for your matrix's LED current and your transistors.
+ 
+### Pinout 
+![Wiring Diagram (without resistors)](docs/Project.png)
 
-### Matrix pinout
 
 ![8x8 LED matrix pinout](docs/matrix-pinout.png)
-![Wiring Diagram (without resistors)](docs/20261021_154703.heic)
 
 ### Wiring (as configured in the firmware)
-
 Array index `i` is assumed to map to panel pin `R(i+1)` / `C(i+1)`. If your wiring differs, edit the `ROWS` / `COLS` arrays.
 
 | Index | ROWS[i] (GPIO) | COLS[i] (GPIO) |
