@@ -29,7 +29,6 @@ Drives a bare 8×8 LED matrix **directly from an ESP32** (no MAX7219 or other dr
 
 ![8x8 LED matrix pinout](docs/matrix-pinout.png)
 ![Wiring Diagram (without resistors)](docs/20261021_154703.heic)
-20261021_154703.heic
 
 ### Wiring (as configured in the firmware)
 
